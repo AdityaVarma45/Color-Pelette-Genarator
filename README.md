@@ -1,16 +1,100 @@
-# React + Vite
+# Color Palette Generator 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Color Palette Generator is a simple web application that helps developers and designers generate beautiful color palettes for their projects.
 
-Currently, two official plugins are available:
+The tool allows users to instantly create visually appealing color combinations that can be used for UI design, websites, and creative projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 Generate random color palettes instantly
+- 📋 Copy HEX color codes with one click
+- 🔁 Generate unlimited palette combinations
+- ⚡ Lightweight and fast
+- 📱 Responsive interface for desktop and mobile
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Application Preview
+
+<img width="1920" height="1080" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/5bf82ba0-b449-4f23-bdf5-e05a0ee78c70" />
+
+
+
+---
+
+## 🧠 How It Works
+
+1. Open the application in your browser.
+2. Click the **Generate** button (or refresh palette).
+3. A new color palette will be generated instantly.
+4. Click any color code to copy it for your project.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Browser APIs
+- Clipboard API (for copying color codes)
+
+---
+
+## 📂 Project Structure
+
+```
+Color-Pelette-Genarator
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```
+git clone https://github.com/AdityaVarma45/Color-Pelette-Genarator.git
+```
+
+Open the project
+
+```
+cd Color-Pelette-Genarator
+```
+
+Run the application by opening `index.html` in your browser.
+
+---
+
+## 🚀 Future Improvements
+
+- Save favorite palettes
+- Export palettes as CSS variables
+- Add gradient palette generator
+- Add palette history
+- Dark mode support
+
+---
+
+## 👨‍💻 Author
+
+Mahesh Aditya Varma
+
+GitHub  
+https://github.com/AdityaVarma45
+
+---
+
+## 📄 License
+
+This project is created for **learning and portfolio purposes**.
